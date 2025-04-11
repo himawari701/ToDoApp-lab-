@@ -11,7 +11,7 @@ import { registerRootComponent } from 'expo';
        <NavigationContainer>
          <Stack.Navigator initialRouteName="Login">
            <Stack.Screen name="Login" component={App} />
-           <Stack.Screen name="Home" component={App} />
+           <Stack.Screen name="Home" component={HomeScreen} />
          </Stack.Navigator>
        </NavigationContainer>
      );

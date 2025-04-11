@@ -1,5 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 
 const App = () => {
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
   buttonText:{
     color: '#fff',
     fontSize : 18,
-    fontWeight: bold
+    fontWeight: 'bold'
   },
   button:{
     width: '80%',
